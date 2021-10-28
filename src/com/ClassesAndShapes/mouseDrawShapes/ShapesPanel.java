@@ -1,4 +1,4 @@
-package com.cw2.one;
+package com.ClassesAndShapes.mouseDrawShapes;
 
 import javax.swing.*;
 import java.awt.*;

@@ -1,4 +1,4 @@
-package com.cw2.one;
+package com.ClassesAndShapes.mouseDrawShapes;
 
 public class Main {
     public static void main(String[] args) {

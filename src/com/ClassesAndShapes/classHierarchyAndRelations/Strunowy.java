@@ -1,4 +1,4 @@
-package com.cw2;
+package com.ClassesAndShapes.classHierarchyAndRelations;
 public abstract class Strunowy extends Instrument {
 
     protected int liczbaStrun ;

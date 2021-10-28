@@ -1,4 +1,4 @@
-package com.cw1_Singleton;
+package com.Singleton;
 
 public class Main {
     public static void main(String[] args) {

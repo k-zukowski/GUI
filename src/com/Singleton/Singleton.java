@@ -1,4 +1,4 @@
-package com.cw1_Singleton;
+package com.Singleton;
 
 public class Singleton {
     private static Singleton INSTANCE;

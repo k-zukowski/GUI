@@ -1,4 +1,4 @@
-package com.cw2;
+package com.ClassesAndShapes.classHierarchyAndRelations;
 
 abstract class Pekusyjny extends Instrument{
     boolean czyOkreslonaWysDziwieku =true;

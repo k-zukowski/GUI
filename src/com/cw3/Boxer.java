@@ -14,16 +14,15 @@ public class Boxer implements Comparable<Boxer>, Comparator<Boxer> {
         this.height = height;
         this.weightCategory = this.assignWeightCategory();
     }
-
-    /*private weightCategory assignWeightCategory(){
-        if (this.weight>=WeightCategory.light.getweightMin()&&this.weight<=WeightCategory.light.getWeightMax())return WeightCategory.light;
-        else if (this.weight>=61.1&&this.weight<=79)return WeightCategory.middle;
-        else if (this.weight>=79.1&&this.weight<=90.7)return WeightCategory.lightHeavy;
-        else if (this.weight>=90.71&&this.weight<=Double.MAX_VALUE)return WeightCategory.heavy;
-        else return WeightCategory.err;
-
-
-    }*/
+    /*
+       private weightCategory assignWeightCategory(){
+          if (this.weight>=WeightCategory.light.getweightMin()&&this.weight<=WeightCategory.light.getWeightMax())return WeightCategory.light;
+          else if (this.weight>=61.1&&this.weight<=79)return WeightCategory.middle;
+          else if (this.weight>=79.1&&this.weight<=90.7)return WeightCategory.lightHeavy;
+          else if (this.weight>=90.71&&this.weight<=Double.MAX_VALUE)return WeightCategory.heavy;
+          else return WeightCategory.err;
+       }
+    */
     private WeightCategory assignWeightCategory(){
         for( WeightCategory wc : WeightCategory.values()){
             if (wc.getWeightMax()>this.weight) return wc;
