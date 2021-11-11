@@ -1,4 +1,4 @@
-package com.cw3;
+package com.Boxer;
 
 public enum WeightCategory {
     light(0,61),
